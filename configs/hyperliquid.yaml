@@ -1,0 +1,18 @@
+exchanges:
+  hyperliquid:
+    endpoint: https://api.hyperliquid.com
+    testnet: false
+    commission_perp: 0.00035
+    # Funding rate thresholds for arbitrage scanner
+    funding_rate_threshold: 0.0001
+
+data:
+  symbols:
+    hyperliquid:
+      - BTC
+      - ETH
+      - SOL
+      - LINK
+      - AVAX
+      - ARB
+      - OP

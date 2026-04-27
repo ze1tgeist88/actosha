@@ -1,0 +1,103 @@
+# agent_runner.yaml — Runner configuration for ACTosha autonomous mode
+# Updated: 2026-04-26 — removed broken strategies (0 trades / negative returns)
+
+# ── Scanner ────────────────────────────────────────────────────────────────
+scanner:
+  interval_minutes: 15
+  min_strength: 0.7
+  symbols:
+    - "BTC/USDT:USDT"
+    - "ETH/USDT:USDT"
+    - "SOL/USDT:USDT"
+  timeframes:
+    - "1h"
+    - "4h"
+  scanner_types:
+    - "indicator"
+    - "pattern"
+    - "volume"
+
+# ── Portfolio ──────────────────────────────────────────────────────────────
+portfolio:
+  total_capital: 50_000.0
+  max_strategies: 5
+  rebalance_threshold: 0.1
+  correlation_window: 50
+  max_correlation: 0.85
+  drawdown_limit: 0.15
+  min_opportunity_strength: 0.65
+
+  # WORKING STRATEGIES ONLY — removed: Supertrend, RSI+MACD, BBEMACombo, RSI Extreme, VWAP
+  strategies:
+    - name: "BollingerReversion"
+      class: "BollingerRevertStrategy"
+      module: "ACTosha.strategies.mean_reversion.bollinger_revert"
+      params:
+        bb_period: 15
+        bb_std: 1.5
+        atr_multiplier: 3.0
+        risk_reward: 1.5
+      weight: 0.40
+      reason: "Best: +430% BTC/1h, Sharpe 12.9, DD -0.3%, WinRate 98%"
+
+    - name: "VolumeSurge"
+      class: "VolumeSurgeStrategy"
+      module: "ACTosha.strategies.breakout.volume_surge"
+      params:
+        volume_ma_period: 20
+        volume_multiplier: 2.0
+        atr_multiplier: 2.5
+        risk_reward: 1.5
+      weight: 0.20
+      reason: "+115% avg, Sharpe 5.5, DD -4.6%"
+
+    - name: "HASmoothed"
+      class: "HASmoothedStrategy"
+      module: "ACTosha.strategies.trend.ha_smoothed"
+      params:
+        fast_period: 5
+        confirm_bars: 7
+        atr_multiplier: 2.0
+        risk_reward: 1.5
+      weight: 0.15
+      reason: "+158% avg, Sharpe 7.0, ETH 1h best"
+
+    - name: "RangeBreakout"
+      class: "RangeBreakoutStrategy"
+      module: "ACTosha.strategies.breakout.range_breakout"
+      params:
+        lookback_period: 20
+        atr_multiplier: 2.5
+        risk_reward: 1.5
+      weight: 0.15
+      reason: "+113% avg, Sharpe 4.8"
+
+    - name: "EMACross"
+      class: "EMACrossStrategy"
+      module: "ACTosha.strategies.trend.ema_cross"
+      params:
+        fast_period: 5
+        slow_period: 21
+        atr_multiplier: 1.5
+        risk_reward: 1.5
+      weight: 0.10
+      reason: "+99% avg, Sharpe 3.5, стабильная диверсификация"
+
+  # ── Adaptive mechanisms ─────────────────────────────────────────
+  adaptive_reallocation_interval_minutes: 60
+  performance_weight_update_threshold: 0.05
+  drawdown_halt_threshold: 0.20
+  auto_optimization_trigger_sharpe_diff: 0.15
+
+# ── Telegram ───────────────────────────────────────────────────────────────
+telegram:
+  chat_id: 366078798
+  rate_limit_seconds: 10.0
+  parse_mode: "HTML"
+
+# ── Runner ─────────────────────────────────────────────────────────────────
+runner:
+  shutdown_timeout: 10
+  log_level: "INFO"
+  start_scanner: true
+  start_portfolio: true

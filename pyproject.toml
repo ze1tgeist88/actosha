@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ACTosha"
+version = "0.1.0"
+description = "Autonomous crypto trading agent — OHLCV analysis, backtesting, execution"
+authors = ["Seed1nvestor"]
+readme = "README.md"
+packages = [{ include = "ACTosha" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ccxt = "^4.0.0"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+vectorbt = "^0.25.0"
+pyarrow = "^14.0.0"
+pyyaml = "^6.0"
+structlog = "^23.0"
+pytz = "^2023.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+pytest-asyncio = "^0.21"
+responses = "^0.23"
+pytest-cov = "^4.0"
+ruff = "^0.1"
+mypy = "^1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

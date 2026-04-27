@@ -1,0 +1,49 @@
+exchanges:
+  hyperliquid:
+    endpoint: https://api.hyperliquid.com
+    testnet: false
+    commission_perp: 0.00035
+
+  binance:
+    endpoint: https://api.binance.com
+    spot_commission: 0.001
+    perp_commission: 0.0004
+
+data:
+  cache_dir: ACTosha/data/cache
+  default_timeframes:
+    - 1m
+    - 5m
+    - 15m
+    - 1h
+    - 4h
+    - 1d
+
+  symbols:
+    binance_perp:
+      - BTC
+      - ETH
+      - SOL
+      - BNB
+      - DOGE
+    binance_spot:
+      - BTC
+      - ETH
+      - SOL
+      - BNB
+
+backtest:
+  default_capital: 10000
+  default_commission: 0.0004
+  default_slippage_bps: 5
+  min_trade_size: 10
+
+scanner:
+  rsi_oversold: 30
+  rsi_overbought: 70
+  bb_squeeze_threshold: 0.1
+  volume_surge_multiplier: 2.0
+
+agents:
+  scanner_interval_minutes: 15
+  min_opportunity_strength: 0.6

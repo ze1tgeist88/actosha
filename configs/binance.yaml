@@ -1,0 +1,21 @@
+exchanges:
+  binance:
+    endpoint: https://api.binance.com
+    spot_commission: 0.001
+    perp_commission: 0.0004
+
+data:
+  symbols:
+    binance_spot:
+      - BTC
+      - ETH
+      - SOL
+      - BNB
+    binance_perp:
+      - BTC
+      - ETH
+      - SOL
+      - BNB
+      - DOGE
+      - ADA
+      - XRP

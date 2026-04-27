@@ -1,0 +1,892 @@
+[
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "EMA Cross",
+    "ret": 178.06,
+    "shr": 4.76,
+    "dd": -2.18,
+    "wr": 62.5,
+    "tr": 56,
+    "pf": 9.75
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "Trendline Break",
+    "ret": 117.67,
+    "shr": 4.16,
+    "dd": -4.38,
+    "wr": 68.6,
+    "tr": 35,
+    "pf": 5.47
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "Bollinger Rev",
+    "ret": 248.5,
+    "shr": 12.67,
+    "dd": -2.0,
+    "wr": 90.7,
+    "tr": 162,
+    "pf": 11.04
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "RSI Extreme",
+    "ret": -274.45,
+    "shr": 1.64,
+    "dd": -271.46,
+    "wr": 30.9,
+    "tr": 97,
+    "pf": 0.11
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "VWAP Reversion",
+    "ret": -125.05,
+    "shr": 1.45,
+    "dd": -141.09,
+    "wr": 42.0,
+    "tr": 81,
+    "pf": 0.51
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "Range Breakout",
+    "ret": 138.95,
+    "shr": 4.81,
+    "dd": -3.48,
+    "wr": 60.6,
+    "tr": 66,
+    "pf": 4.0
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "Volume Surge",
+    "ret": 126.1,
+    "shr": 4.72,
+    "dd": -4.26,
+    "wr": 70.4,
+    "tr": 54,
+    "pf": 4.25
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "RSI + MACD Combo",
+    "ret": 89.16,
+    "shr": 6.98,
+    "dd": -0.66,
+    "wr": 84.6,
+    "tr": 39,
+    "pf": 43.21
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "Ichimoku",
+    "ret": 71.19,
+    "shr": 2.19,
+    "dd": -6.48,
+    "wr": 57.1,
+    "tr": 7,
+    "pf": 5.52
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "OBVDivergence",
+    "ret": -63.82,
+    "shr": -0.97,
+    "dd": -77.4,
+    "wr": 27.3,
+    "tr": 11,
+    "pf": 0.29
+  },
+  {
+    "key": "BTC/4h/BULL",
+    "strat": "HASmoothed",
+    "ret": 157.64,
+    "shr": 6.78,
+    "dd": -6.21,
+    "wr": 77.3,
+    "tr": 75,
+    "pf": 5.98
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "EMA Cross",
+    "ret": 39.06,
+    "shr": 5.03,
+    "dd": -1.65,
+    "wr": 57.1,
+    "tr": 21,
+    "pf": 8.34
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "Trendline Break",
+    "ret": 18.59,
+    "shr": 3.95,
+    "dd": -5.69,
+    "wr": 63.6,
+    "tr": 11,
+    "pf": 2.79
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "Bollinger Rev",
+    "ret": 68.4,
+    "shr": 15.38,
+    "dd": -1.9,
+    "wr": 94.8,
+    "tr": 77,
+    "pf": 12.26
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "RSI Extreme",
+    "ret": -36.33,
+    "shr": -5.29,
+    "dd": -36.61,
+    "wr": 40.0,
+    "tr": 35,
+    "pf": 0.29
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "VWAP Reversion",
+    "ret": -42.78,
+    "shr": -4.31,
+    "dd": -49.95,
+    "wr": 40.7,
+    "tr": 27,
+    "pf": 0.33
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "Range Breakout",
+    "ret": 24.68,
+    "shr": 5.88,
+    "dd": -4.16,
+    "wr": 65.5,
+    "tr": 29,
+    "pf": 3.73
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "Volume Surge",
+    "ret": 15.8,
+    "shr": 4.04,
+    "dd": -5.97,
+    "wr": 63.6,
+    "tr": 22,
+    "pf": 2.32
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "RSI + MACD Combo",
+    "ret": 21.11,
+    "shr": 5.52,
+    "dd": -0.63,
+    "wr": 72.2,
+    "tr": 18,
+    "pf": 26.3
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "OBVDivergence",
+    "ret": 31.57,
+    "shr": 3.53,
+    "dd": -0.32,
+    "wr": 83.3,
+    "tr": 6,
+    "pf": 110.57
+  },
+  {
+    "key": "BTC/4h/BEAR",
+    "strat": "HASmoothed",
+    "ret": 47.65,
+    "shr": 6.83,
+    "dd": -2.19,
+    "wr": 70.4,
+    "tr": 27,
+    "pf": 9.99
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "EMA Cross",
+    "ret": 10.39,
+    "shr": 3.51,
+    "dd": -6.35,
+    "wr": 46.7,
+    "tr": 15,
+    "pf": 2.29
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "Trendline Break",
+    "ret": 23.95,
+    "shr": 6.1,
+    "dd": -1.35,
+    "wr": 66.7,
+    "tr": 6,
+    "pf": 9.12
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "Bollinger Rev",
+    "ret": 65.86,
+    "shr": 12.86,
+    "dd": -1.96,
+    "wr": 92.1,
+    "tr": 38,
+    "pf": 24.34
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "RSI Extreme",
+    "ret": -44.55,
+    "shr": -9.07,
+    "dd": -44.62,
+    "wr": 27.3,
+    "tr": 33,
+    "pf": 0.21
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "VWAP Reversion",
+    "ret": -25.7,
+    "shr": -1.73,
+    "dd": -41.68,
+    "wr": 36.8,
+    "tr": 19,
+    "pf": 0.48
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "Range Breakout",
+    "ret": 22.73,
+    "shr": 5.55,
+    "dd": -6.93,
+    "wr": 63.6,
+    "tr": 11,
+    "pf": 3.34
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "Volume Surge",
+    "ret": 28.83,
+    "shr": 8.66,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 7,
+    "pf": 0
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "RSI + MACD Combo",
+    "ret": 19.36,
+    "shr": 5.6,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 7,
+    "pf": 0
+  },
+  {
+    "key": "BTC/4h/SIDEWAYS",
+    "strat": "HASmoothed",
+    "ret": 36.4,
+    "shr": 10.58,
+    "dd": -1.02,
+    "wr": 78.3,
+    "tr": 23,
+    "pf": 12.63
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "EMA Cross",
+    "ret": 109.43,
+    "shr": 6.07,
+    "dd": -4.81,
+    "wr": 70.0,
+    "tr": 10,
+    "pf": 11.17
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "Trendline Break",
+    "ret": -3.58,
+    "shr": -0.63,
+    "dd": -12.7,
+    "wr": 50.0,
+    "tr": 6,
+    "pf": 0.84
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "Bollinger Rev",
+    "ret": 113.7,
+    "shr": 15.96,
+    "dd": -0.94,
+    "wr": 95.5,
+    "tr": 22,
+    "pf": 137.32
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "RSI Extreme",
+    "ret": -112.29,
+    "shr": -4.32,
+    "dd": -113.08,
+    "wr": 40.0,
+    "tr": 15,
+    "pf": 0.14
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "VWAP Reversion",
+    "ret": -128.12,
+    "shr": 3.36,
+    "dd": -128.12,
+    "wr": 33.3,
+    "tr": 21,
+    "pf": 0.22
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "Range Breakout",
+    "ret": 29.54,
+    "shr": 4.96,
+    "dd": -14.58,
+    "wr": 61.5,
+    "tr": 13,
+    "pf": 2.6
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "Volume Surge",
+    "ret": 29.93,
+    "shr": 4.68,
+    "dd": -7.8,
+    "wr": 57.1,
+    "tr": 7,
+    "pf": 5.19
+  },
+  {
+    "key": "BTC/1d/BULL",
+    "strat": "HASmoothed",
+    "ret": 47.39,
+    "shr": 5.85,
+    "dd": -3.38,
+    "wr": 75.0,
+    "tr": 8,
+    "pf": 9.61
+  },
+  {
+    "key": "BTC/1d/BEAR",
+    "strat": "Bollinger Rev",
+    "ret": 24.84,
+    "shr": 18.01,
+    "dd": 0.0,
+    "wr": 88.9,
+    "tr": 9,
+    "pf": 0
+  },
+  {
+    "key": "BTC/1d/BEAR",
+    "strat": "RSI Extreme",
+    "ret": -23.59,
+    "shr": -6.71,
+    "dd": -29.3,
+    "wr": 57.1,
+    "tr": 7,
+    "pf": 0.27
+  },
+  {
+    "key": "BTC/1d/BEAR",
+    "strat": "VWAP Reversion",
+    "ret": -55.88,
+    "shr": -9.04,
+    "dd": -55.88,
+    "wr": 33.3,
+    "tr": 6,
+    "pf": 0.06
+  },
+  {
+    "key": "BTC/1d/BEAR",
+    "strat": "HASmoothed",
+    "ret": 27.83,
+    "shr": 12.5,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 5,
+    "pf": 0
+  },
+  {
+    "key": "BTC/1d/SIDEWAYS",
+    "strat": "Bollinger Rev",
+    "ret": 30.34,
+    "shr": 11.38,
+    "dd": -3.86,
+    "wr": 83.3,
+    "tr": 6,
+    "pf": 7.72
+  },
+  {
+    "key": "BTC/1d/SIDEWAYS",
+    "strat": "VWAP Reversion",
+    "ret": -30.31,
+    "shr": -10.53,
+    "dd": -30.31,
+    "wr": 28.6,
+    "tr": 7,
+    "pf": 0.07
+  },
+  {
+    "key": "BTC/1d/SIDEWAYS",
+    "strat": "HASmoothed",
+    "ret": 0.13,
+    "shr": 0.47,
+    "dd": -2.75,
+    "wr": 60.0,
+    "tr": 5,
+    "pf": 1.19
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "EMA Cross",
+    "ret": 163.86,
+    "shr": 2.97,
+    "dd": -7.5,
+    "wr": 47.6,
+    "tr": 63,
+    "pf": 4.62
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "Trendline Break",
+    "ret": 137.29,
+    "shr": 4.6,
+    "dd": -4.94,
+    "wr": 73.5,
+    "tr": 34,
+    "pf": 4.94
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "Bollinger Rev",
+    "ret": 355.88,
+    "shr": 12.32,
+    "dd": -2.3,
+    "wr": 91.3,
+    "tr": 185,
+    "pf": 9.94
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "RSI Extreme",
+    "ret": -288.53,
+    "shr": 1.76,
+    "dd": -287.92,
+    "wr": 30.2,
+    "tr": 86,
+    "pf": 0.12
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "VWAP Reversion",
+    "ret": -127.97,
+    "shr": 0.82,
+    "dd": -136.13,
+    "wr": 33.3,
+    "tr": 75,
+    "pf": 0.49
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "Range Breakout",
+    "ret": 154.94,
+    "shr": 5.41,
+    "dd": -8.81,
+    "wr": 57.4,
+    "tr": 68,
+    "pf": 3.25
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "Volume Surge",
+    "ret": 184.33,
+    "shr": 5.97,
+    "dd": -5.36,
+    "wr": 68.1,
+    "tr": 47,
+    "pf": 5.49
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "RSI + MACD Combo",
+    "ret": 72.53,
+    "shr": 5.28,
+    "dd": -0.28,
+    "wr": 90.9,
+    "tr": 22,
+    "pf": 170.8
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "Ichimoku",
+    "ret": 64.53,
+    "shr": 2.42,
+    "dd": -13.37,
+    "wr": 72.7,
+    "tr": 11,
+    "pf": 2.89
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "OBVDivergence",
+    "ret": 65.86,
+    "shr": 3.03,
+    "dd": -7.18,
+    "wr": 61.5,
+    "tr": 13,
+    "pf": 5.1
+  },
+  {
+    "key": "ETH/4h/BULL",
+    "strat": "HASmoothed",
+    "ret": 329.06,
+    "shr": 7.48,
+    "dd": -11.19,
+    "wr": 80.6,
+    "tr": 72,
+    "pf": 10.29
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "EMA Cross",
+    "ret": 127.9,
+    "shr": 5.46,
+    "dd": -1.38,
+    "wr": 56.7,
+    "tr": 30,
+    "pf": 11.93
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "Trendline Break",
+    "ret": 37.11,
+    "shr": 4.45,
+    "dd": -9.34,
+    "wr": 68.8,
+    "tr": 16,
+    "pf": 2.6
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "Bollinger Rev",
+    "ret": 134.81,
+    "shr": 15.19,
+    "dd": -2.8,
+    "wr": 98.4,
+    "tr": 63,
+    "pf": 34.59
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "RSI Extreme",
+    "ret": -147.17,
+    "shr": 2.35,
+    "dd": -147.17,
+    "wr": 32.5,
+    "tr": 40,
+    "pf": 0.1
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "VWAP Reversion",
+    "ret": -125.34,
+    "shr": 0.15,
+    "dd": -134.09,
+    "wr": 27.3,
+    "tr": 33,
+    "pf": 0.2
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "Range Breakout",
+    "ret": 72.42,
+    "shr": 6.45,
+    "dd": -8.18,
+    "wr": 70.6,
+    "tr": 17,
+    "pf": 4.42
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "Volume Surge",
+    "ret": 62.76,
+    "shr": 6.78,
+    "dd": -3.72,
+    "wr": 72.2,
+    "tr": 18,
+    "pf": 6.88
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "RSI + MACD Combo",
+    "ret": 55.65,
+    "shr": 6.79,
+    "dd": -0.17,
+    "wr": 93.3,
+    "tr": 15,
+    "pf": 314.31
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "OBVDivergence",
+    "ret": 70.76,
+    "shr": 4.51,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 5,
+    "pf": 0
+  },
+  {
+    "key": "ETH/4h/BEAR",
+    "strat": "HASmoothed",
+    "ret": 87.39,
+    "shr": 4.53,
+    "dd": -7.63,
+    "wr": 59.1,
+    "tr": 22,
+    "pf": 3.39
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "EMA Cross",
+    "ret": 13.04,
+    "shr": 3.04,
+    "dd": -10.55,
+    "wr": 38.9,
+    "tr": 18,
+    "pf": 1.83
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "Trendline Break",
+    "ret": 37.4,
+    "shr": 4.8,
+    "dd": -3.18,
+    "wr": 71.4,
+    "tr": 7,
+    "pf": 9.01
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "Bollinger Rev",
+    "ret": 106.15,
+    "shr": 9.52,
+    "dd": -2.72,
+    "wr": 92.1,
+    "tr": 38,
+    "pf": 34.53
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "RSI Extreme",
+    "ret": -36.32,
+    "shr": -5.93,
+    "dd": -38.79,
+    "wr": 50.0,
+    "tr": 32,
+    "pf": 0.34
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "VWAP Reversion",
+    "ret": -27.38,
+    "shr": -0.42,
+    "dd": -52.75,
+    "wr": 33.3,
+    "tr": 18,
+    "pf": 0.64
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "Range Breakout",
+    "ret": 32.96,
+    "shr": 4.05,
+    "dd": -10.6,
+    "wr": 50.0,
+    "tr": 14,
+    "pf": 2.6
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "Volume Surge",
+    "ret": 58.93,
+    "shr": 5.76,
+    "dd": -0.86,
+    "wr": 71.4,
+    "tr": 7,
+    "pf": 52.68
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "RSI + MACD Combo",
+    "ret": 46.48,
+    "shr": 6.01,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 9,
+    "pf": 0
+  },
+  {
+    "key": "ETH/4h/SIDEWAYS",
+    "strat": "HASmoothed",
+    "ret": 69.68,
+    "shr": 8.9,
+    "dd": -1.75,
+    "wr": 68.8,
+    "tr": 16,
+    "pf": 18.03
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "EMA Cross",
+    "ret": 59.58,
+    "shr": 5.49,
+    "dd": -13.53,
+    "wr": 62.5,
+    "tr": 8,
+    "pf": 3.93
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "Trendline Break",
+    "ret": 30.52,
+    "shr": 4.94,
+    "dd": -8.38,
+    "wr": 80.0,
+    "tr": 5,
+    "pf": 4.96
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "Bollinger Rev",
+    "ret": 195.34,
+    "shr": 16.83,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 23,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "RSI Extreme",
+    "ret": -128.55,
+    "shr": 0.7,
+    "dd": -127.86,
+    "wr": 40.0,
+    "tr": 15,
+    "pf": 0.11
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "VWAP Reversion",
+    "ret": -109.29,
+    "shr": -5.38,
+    "dd": -109.29,
+    "wr": 28.6,
+    "tr": 21,
+    "pf": 0.21
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "Range Breakout",
+    "ret": 110.86,
+    "shr": 8.46,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 5,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "Volume Surge",
+    "ret": 62.82,
+    "shr": 7.23,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 5,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/BULL",
+    "strat": "HASmoothed",
+    "ret": 173.99,
+    "shr": 7.41,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 11,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/BEAR",
+    "strat": "Bollinger Rev",
+    "ret": 34.46,
+    "shr": 19.24,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 10,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/BEAR",
+    "strat": "RSI Extreme",
+    "ret": -93.95,
+    "shr": -2.92,
+    "dd": -97.32,
+    "wr": 33.3,
+    "tr": 6,
+    "pf": 0.05
+  },
+  {
+    "key": "ETH/1d/BEAR",
+    "strat": "VWAP Reversion",
+    "ret": -154.15,
+    "shr": -6.14,
+    "dd": -154.15,
+    "wr": 0,
+    "tr": 8,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/SIDEWAYS",
+    "strat": "Bollinger Rev",
+    "ret": 59.42,
+    "shr": 12.18,
+    "dd": 0.0,
+    "wr": 100.0,
+    "tr": 7,
+    "pf": 0
+  },
+  {
+    "key": "ETH/1d/SIDEWAYS",
+    "strat": "VWAP Reversion",
+    "ret": -47.73,
+    "shr": -9.93,
+    "dd": -48.49,
+    "wr": 37.5,
+    "tr": 8,
+    "pf": 0.14
+  },
+  {
+    "key": "ETH/1d/SIDEWAYS",
+    "strat": "HASmoothed",
+    "ret": 67.57,
+    "shr": 13.82,
+    "dd": -0.4,
+    "wr": 71.4,
+    "tr": 7,
+    "pf": 59.7
+  }
+]
